@@ -1,0 +1,19 @@
+#screen-play {
+  flex-direction: column;
+  gap: 16px;
+}
+
+#game-canvas {
+  background: #eef3ff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.stats-box {
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+  color: #555;
+}
